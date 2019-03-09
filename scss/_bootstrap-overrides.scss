@@ -1,19 +1,28 @@
-// Bootstrap overrides for this template
+.bg-primary {
+       background-color: #005A9D !important;
+  //background-color: $primary !important;
+}
+
 .text-primary {
-  color: $theme-primary !important;
+
+       color: #555555 !important;
+  // color: $primary !important;
 }
 
-.btn-primary {
-  font-weight: 700;
-  @include button-variant(white, $theme-primary, $theme-primary);
-  @include heading-font;
+a {
+  color: #005A9D;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken(#005A9D, 15%);
+  }
 }
 
-.btn-xl {
-  font-size: 18px;
-  font-weight: 700;
-  padding: 20px 40px;
-  border-radius: 3px;
-  @include button-variant(white, $theme-primary, $theme-primary);
-  @include heading-font;
+p {
+       margin-bottom: 0.3rem;
+       color: #555555;
 }
+
+.dev-icons-text{font-size:1rem}
+
+a:last-child{margin-right:0}.social-icons a:hover{background-color:#bd5d38}.dev-icons{text-align:center;font-size:3rem}
