@@ -72,7 +72,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #003dc7;
 }
 
 .dev-icons {
@@ -80,7 +80,11 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #003dc7;
+}
+
+.lead2 {
+       color: #555555;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -204,9 +208,6 @@ a:last-child {
   margin-right: 0;
 }
 
-.social-icons a:hover {
-  background-color: #bd5d38;
-}
 
 .dev-icons {
   text-align: center;
